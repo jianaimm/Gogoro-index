@@ -1,12 +1,34 @@
 body {
-	min-width: 544px;
+	width: 100%;
 }
 .animation {
 	margin: 30px 0 22px;
-	height: 188px;
+	height: 108px;
+}
+/**/
+
+.News {
+	width: 400%;
+	animation: news 20s linear infinite;
+}
+.News a {
+	width: 8.3333%;
+	text-align: center;
+}
+.News a img {
+	width: 60%;
+	
 }
 .textList li {
 	height: 188px;
+}
+.textList strong {
+	font-size: 22px;
+	line-height: 26px;
+}
+.textList span {
+	font-size: 16px;
+	line-height: 24px;
 }
 .footer {
 	padding-bottom: 5px;
